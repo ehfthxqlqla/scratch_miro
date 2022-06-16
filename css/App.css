@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    position: relative;
+    width: 1200px;
+    height: 900px;
+    border: 1px solid #ccc;
+}
+
+.terms-and-service {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.move-to-game {
+    cursor: pointer;
+    transition: 0.5s all ease;
+    width: 300px;
+    height: 35px;
+    font-size: 18px;
+    margin-top: 10px;
+    background: none;
+    border-radius: 25px;
+    border: 1px solid rgb(95, 95, 95);
+    outline: none;
+}
+
+.move-to-game:hover {
+    transition: 0.5s all ease;
+    background-color: black;
+    color: white;
+}
+
+.checkmark {
+    border: 1px solid black;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    background: transparent;
+}
+
+.checkmark.checked {
+    background: url("../images/checkmark_checked.svg");
+}
