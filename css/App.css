@@ -57,7 +57,7 @@ summary::marker {
     margin-top: 10px;
 }
 
-.move-to-game:hover {
+.move-to-game:hover, .move-to-game-special:hover {
     transition: 0.5s all ease;
     background-color: black;
     color: white;
