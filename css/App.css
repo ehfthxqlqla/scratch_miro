@@ -35,11 +35,26 @@ summary::marker {
     width: 300px;
     height: 35px;
     font-size: 18px;
-    margin-top: 10px;
     background: none;
     border-radius: 25px;
     border: 1px solid rgb(95, 95, 95);
     outline: none;
+}
+
+.move-to-game-special {
+    cursor: pointer;
+    transition: 0.5s all ease;
+    width: 300px;
+    height: 35px;
+    font-size: 18px;
+    background: none;
+    border-radius: 25px;
+    border: 1px solid rgb(95, 95, 95);
+    outline: none;
+}
+
+.move-to-game.standard {
+    margin-top: 10px;
 }
 
 .move-to-game:hover {
