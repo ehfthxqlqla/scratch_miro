@@ -39,6 +39,7 @@ summary::marker {
     border-radius: 25px;
     border: 1px solid rgb(95, 95, 95);
     outline: none;
+    margin-top: 10px;
 }
 
 .move-to-game-special {
@@ -51,9 +52,6 @@ summary::marker {
     border-radius: 25px;
     border: 1px solid rgb(95, 95, 95);
     outline: none;
-}
-
-.move-to-game.standard {
     margin-top: 10px;
 }
 
